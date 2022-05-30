@@ -1,4 +1,5 @@
 #!/bin/zsh
+#登录到家里的路由器
 nohup ssh -L 1234:192.168.50.201:22 -p 7876 bear@yaoyuan18610093030.synology.me -N &
 sleep 5
 ssh root@127.0.0.1 -p 1234
